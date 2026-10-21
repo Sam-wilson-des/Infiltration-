@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://odrkqdjb61jp"]
+
+[ext_resource type="Texture2D" uid="uid://m7kfug7f1c0l" path="res://assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/Main Buttons/Button - PS Circle 1.png" id="1_xwvqn"]
+[ext_resource type="Texture2D" uid="uid://ci814hqtey74c" path="res://assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/Main Buttons/Button - PS Square 1.png" id="2_ff64o"]
+[ext_resource type="Texture2D" uid="uid://cndvxvxptkbu8" path="res://assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/PS4 BUTTONS - Premium Assets/Main Buttons/Button - PS Triangle 1.png" id="3_kxvun"]
+
+[node name="controls" type="CanvasLayer" unique_id=24973804]
+
+[node name="left" type="TouchScreenButton" parent="." unique_id=1790078090]
+position = Vector2(826.00006, 346)
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("1_xwvqn")
+action = "ui_left"
+
+[node name="right" type="TouchScreenButton" parent="." unique_id=65686189]
+position = Vector2(931.99994, 343.99997)
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("2_ff64o")
+action = "ui_right"
+
+[node name="jump" type="TouchScreenButton" parent="." unique_id=361081019]
+position = Vector2(882.99994, 253.99998)
+scale = Vector2(0.2, 0.2)
+texture_normal = ExtResource("3_kxvun")
+action = "ui_accept"

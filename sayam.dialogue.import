@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://c2428ikhqu3no"
+path="res://.godot/imported/sayam.dialogue-3301f1a694cc550174882f8ba8867ae8.tres"
+
+[deps]
+
+source_file="res://sayam.dialogue"
+dest_files=["res://.godot/imported/sayam.dialogue-3301f1a694cc550174882f8ba8867ae8.tres"]
+
+[params]
+
+defaults=true

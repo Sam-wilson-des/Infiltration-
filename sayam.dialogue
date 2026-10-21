@@ -1,0 +1,11 @@
+~ start
+sam: [[Hi|Hello|Howdy]], sayam
+sayam: hello
+- what is this 
+	sam: this is a game you see
+- why am I here
+	sam : god knows
+- Start again => start
+- End the conversation => END
+Nathan: For more information see the online documentation.
+=> END
